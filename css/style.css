@@ -3004,4 +3004,56 @@ footer.footer-box .heading_main h2 {
 }
 
 
+/* Estilos para el footer de TikTok */
+.footer-tiktok {
+	text-align: center;
+	padding: 20px;
+	background-color: #111;  /* fondo oscuro */
+  }
+  
+  .tiktok-link {
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	transition: color 0.3s ease;
+  }
+  
+  .tiktok-link:hover {
+	color: #ff0050; /* color del logo TikTok */
+  }
+  
+  .tiktok-logo {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+  }
+
+
+
+  /* Botón flotante de TikTok */
+.tiktok-float {
+	position: fixed;
+	bottom: 20px;   /* separación desde abajo */
+	right: 20px;    /* separación desde la derecha */
+	background: #111;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+	transition: transform 0.3s ease, background 0.3s ease;
+	z-index: 1000; /* siempre visible */
+  }
+  
+  .tiktok-float:hover {
+	transform: scale(1.1);
+	background: #ff0050; /* color TikTok al pasar el mouse */
+  }
+  
+  .tiktok-icon {
+	width: 40px;
+	height: 40px;
+	display: block;
+  }
 
